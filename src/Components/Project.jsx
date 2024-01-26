@@ -41,7 +41,7 @@ const Project = () => {
       </div>
 
       <AnimatePresence>
-        <div className='grid sm:grid-cols-2 md:grid-cols-3'>
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 mt-5'>
           {filterImage && filterImage.map(filterImage => {
             return (
               <motion.div
